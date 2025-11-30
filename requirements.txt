@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-transformers>=4.30
+transformers
 torch  # pick the correct torch wheel for your system (CUDA vs CPU)
 Pillow
 requests
@@ -9,3 +9,4 @@ pydantic
 accelerate
 bitsandbytes
 python-multipart
+qwen-vl-utils
