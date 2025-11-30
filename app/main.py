@@ -7,4 +7,4 @@ app.include_router(compare.router, prefix="/api")
 
 @app.get("/")
 async def root():
-    return {"service":"Visual Compare Agent", "status":"ok"}
+    return {"service": "Visual Comparison Agent", "status": "ok"}

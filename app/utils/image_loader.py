@@ -1,8 +1,8 @@
-from fastapi import UploadFile 
-from PIL import Image 
-import io 
+from fastapi import UploadFile
+from PIL import Image
+import io
 
-async def load_image(upload: UploadFile)-> Image.Image:
+async def load_image_from_upload(upload: UploadFile) -> Image.Image:
     """
     Load a FastAPI UploadFile into a PIL Image and ensure RGB.
     """
